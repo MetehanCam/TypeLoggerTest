@@ -11,11 +11,11 @@ namespace BilgeAdam.TypeLogger
             var interfaces = type.GetInterfaces();
             foreach (var iface in interfaces)
             {
-                sb.Append(iface.FullName);
+                sb.Append($"{iface.FullName}, ");
             }
-            sb.Append(type.FullName);
-            sb.Append(type.Name);
-            sb.Append(type.BaseType);
+            sb.Append($"{type.FullName}, ");
+            sb.Append($"{type.Name}, ");
+            sb.Append($"{type.BaseType} ");
             return sb.ToString();
         }
     }
