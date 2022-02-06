@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeLoggerTest", "TypeLoggerTest\TypeLoggerTest.csproj", "{24596FE4-A158-4BA5-A93E-0B1516478651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.TypeLogger", "TypeLogger\BilgeAdam.TypeLogger.csproj", "{CB198DBF-CBD3-4BAE-BC8C-CA36B13125A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24596FE4-A158-4BA5-A93E-0B1516478651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24596FE4-A158-4BA5-A93E-0B1516478651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24596FE4-A158-4BA5-A93E-0B1516478651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24596FE4-A158-4BA5-A93E-0B1516478651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB198DBF-CBD3-4BAE-BC8C-CA36B13125A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB198DBF-CBD3-4BAE-BC8C-CA36B13125A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB198DBF-CBD3-4BAE-BC8C-CA36B13125A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB198DBF-CBD3-4BAE-BC8C-CA36B13125A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DE905CC-146A-469B-AD61-CF416CE9D197}
+	EndGlobalSection
+EndGlobal
