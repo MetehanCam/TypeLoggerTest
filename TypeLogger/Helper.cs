@@ -16,6 +16,37 @@ namespace BilgeAdam.TypeLogger
             sb.Append($"{type.FullName}, ");
             sb.Append($"{type.Name}, ");
             sb.Append($"{type.BaseType} ");
+            if (type.IsAbstract)
+            {
+                sb.Append($"Abstract");
+
+            }
+            if (type.IsEnum)
+            {
+                sb.Append($"Enum");
+
+            }
+            if (type.IsPrimitive)
+            {
+                sb.Append($"Primitve");
+
+            }
+            if (type.IsClass)
+            {
+                sb.Append($"Class");
+
+            }
+            if (type.IsInterface)
+            {
+                sb.Append($"Interface");
+
+            }
+            if (type.IsValueType)
+            {
+                sb.Append($"ValueType");
+
+            }
+
             return sb.ToString();
         }
     }
